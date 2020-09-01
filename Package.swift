@@ -10,7 +10,7 @@ let package = Package(
         .library(name: "JWT", targets: ["JWT"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/vapor/jwt-kit.git", from: "4.0.0"),
+        .package(url: "https://github.com/katalysis-io/jwt-kit.git", .exact("4.0.1-katalysis.9")),
         .package(url: "https://github.com/vapor/vapor.git", from: "4.0.0"),
     ],
     targets: [
